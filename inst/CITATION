@@ -1,0 +1,20 @@
+citHeader("To cite 'latentnetHRT' in publications use:")
+
+citEntry(entry="Manual",
+         title = "latentnetHRT: An R package for Latent Position and Cluster Modeling of Statistical Networks",
+         author = personList(as.person("Mark S. Handcock"),
+                             as.person("Jeremy Tantrum"),
+                             as.person("Susan Shortreed"),
+                             as.person("Peter Hoff")), 
+         year         = 2004,
+         url          = "http://statnetproject.org/latentnetHRT",
+         
+         textVersion = 
+         paste("Mark S. Handcock, Jeremy Tantrum, Susan Shortreed, and Peter Hoff (2004)", 
+               "latentnetHRT: An R package for Latent Position and Cluster Modeling of Statistical Networks. ",
+               "URL http://statnetproject.org/latentnetHRT",
+               sep="")
+         )
+
+citFooter("We have invested a lot of time and effort in creating 'latentnetHRT',",
+          "please cite it when using it for network analysis.")
